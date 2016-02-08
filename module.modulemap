@@ -2,4 +2,5 @@ module CDispatch [system] {
     header "/usr/include/dispatch/dispatch.h"
     export *
     link "dispatch"
+    link "BlocksRuntime"
 }
